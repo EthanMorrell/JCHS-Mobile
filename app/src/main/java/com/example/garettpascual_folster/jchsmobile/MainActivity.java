@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // DONT TOUCH ANY OF THIS //
+        // DON'T TOUCH ANY OF THIS //
 
         WebView webViewer = (WebView)findViewById(R.id.webViewer);
         webViewer.getSettings().setJavaScriptEnabled(true);
